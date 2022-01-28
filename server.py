@@ -5,6 +5,7 @@ import PIL.Image
 
 from flask import Flask, request, jsonify
 app = Flask(__name__)
+app.run()
 
 # Initialize background knowledge
 known_face_encodings = []
